@@ -1,0 +1,197 @@
+{
+  "_說明": "任務範本：category 要和 App 裡的六個類別一樣；minutes 只能是 5、10、15、20；light = 是否算輕鬆（低能量時只會推薦 10 分鐘以內、light 為 true 的範本）；smallerTitle = 按「縮小」後的文字。可以自由新增，id 不要重複。",
+  "templates": [
+    {
+      "id": "read-5",
+      "category": "閱讀",
+      "minutes": 5,
+      "light": true,
+      "title": "讀 1 頁書，畫下一句喜歡的話",
+      "smallerTitle": "打開書，讀第一段"
+    },
+    {
+      "id": "read-10",
+      "category": "閱讀",
+      "minutes": 10,
+      "light": true,
+      "title": "讀完一個小節",
+      "smallerTitle": "讀 1 頁就好"
+    },
+    {
+      "id": "read-15",
+      "category": "閱讀",
+      "minutes": 15,
+      "light": false,
+      "title": "讀一篇短文章，寫下一個重點",
+      "smallerTitle": "讀前兩段"
+    },
+    {
+      "id": "read-20",
+      "category": "閱讀",
+      "minutes": 20,
+      "light": false,
+      "title": "讀一章的一部分，用一句話寫下讀到什麼",
+      "smallerTitle": "讀一個段落就好"
+    },
+    {
+      "id": "lang-5",
+      "category": "語言",
+      "minutes": 5,
+      "light": true,
+      "title": "複習 5 個單字",
+      "smallerTitle": "複習 3 個單字"
+    },
+    {
+      "id": "lang-10",
+      "category": "語言",
+      "minutes": 10,
+      "light": true,
+      "title": "跟讀一小段音檔",
+      "smallerTitle": "先聽一遍就好"
+    },
+    {
+      "id": "lang-15",
+      "category": "語言",
+      "minutes": 15,
+      "light": false,
+      "title": "讀一篇短文，圈出 5 個生字",
+      "smallerTitle": "讀第一段"
+    },
+    {
+      "id": "lang-20",
+      "category": "語言",
+      "minutes": 20,
+      "light": false,
+      "title": "用新學的 3 個字各寫一句話",
+      "smallerTitle": "用 1 個字寫一句話"
+    },
+    {
+      "id": "write-5",
+      "category": "寫作與論文",
+      "minutes": 5,
+      "light": true,
+      "title": "打開檔案，寫下今天要處理哪一段",
+      "smallerTitle": "只要打開檔案"
+    },
+    {
+      "id": "write-10",
+      "category": "寫作與論文",
+      "minutes": 10,
+      "light": true,
+      "title": "寫 3 句草稿，先不修改",
+      "smallerTitle": "寫 1 句就好"
+    },
+    {
+      "id": "write-15",
+      "category": "寫作與論文",
+      "minutes": 15,
+      "light": false,
+      "title": "整理一篇文獻的筆記",
+      "smallerTitle": "讀這篇的摘要"
+    },
+    {
+      "id": "write-20",
+      "category": "寫作與論文",
+      "minutes": 20,
+      "light": false,
+      "title": "寫一段約 150 字的草稿",
+      "smallerTitle": "列出這段的 3 個重點"
+    },
+    {
+      "id": "move-5",
+      "category": "運動",
+      "minutes": 5,
+      "light": true,
+      "title": "伸展肩頸",
+      "smallerTitle": "轉轉肩膀"
+    },
+    {
+      "id": "move-10",
+      "category": "運動",
+      "minutes": 10,
+      "light": true,
+      "title": "出門走一小段路",
+      "smallerTitle": "走到樓下再回來"
+    },
+    {
+      "id": "move-15",
+      "category": "運動",
+      "minutes": 15,
+      "light": false,
+      "title": "跟著影片做一組伸展",
+      "smallerTitle": "做影片的前半段"
+    },
+    {
+      "id": "move-20",
+      "category": "運動",
+      "minutes": 20,
+      "light": false,
+      "title": "慢跑或快走",
+      "smallerTitle": "快走一小段"
+    },
+    {
+      "id": "tidy-5",
+      "category": "整理",
+      "minutes": 5,
+      "light": true,
+      "title": "清空書桌的一角",
+      "smallerTitle": "收好 3 樣東西"
+    },
+    {
+      "id": "tidy-10",
+      "category": "整理",
+      "minutes": 10,
+      "light": true,
+      "title": "整理手機相簿，刪掉 20 張",
+      "smallerTitle": "刪掉 5 張"
+    },
+    {
+      "id": "tidy-15",
+      "category": "整理",
+      "minutes": 15,
+      "light": false,
+      "title": "整理一個抽屜",
+      "smallerTitle": "整理抽屜的一半"
+    },
+    {
+      "id": "tidy-20",
+      "category": "整理",
+      "minutes": 20,
+      "light": false,
+      "title": "把這週的待辦整理成一張清單",
+      "smallerTitle": "寫下最重要的 3 件"
+    },
+    {
+      "id": "other-5",
+      "category": "其他",
+      "minutes": 5,
+      "light": true,
+      "title": "寫下今天想完成的一件小事",
+      "smallerTitle": "想一件就好"
+    },
+    {
+      "id": "other-10",
+      "category": "其他",
+      "minutes": 10,
+      "light": true,
+      "title": "回覆一則拖了很久的訊息",
+      "smallerTitle": "打開對話框，寫第一句"
+    },
+    {
+      "id": "other-15",
+      "category": "其他",
+      "minutes": 15,
+      "light": false,
+      "title": "練習一個興趣，例如畫畫或樂器",
+      "smallerTitle": "先練一小段"
+    },
+    {
+      "id": "other-20",
+      "category": "其他",
+      "minutes": 20,
+      "light": false,
+      "title": "推進個人專案的一小步",
+      "smallerTitle": "寫下下一步是什麼"
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+/* 伍伴 Wuplet — 管理頁（沿用 app.css 的顏色與按鈕） */
+
+.adm { max-width: 1080px; margin: 0 auto; padding: 16px var(--gutter) 48px; }
+.narrow-adm { max-width: 520px; }
+.adm h2 { margin: 0 0 10px; font-size: 18px; }
+.adm h3 { margin: 0 0 8px; font-size: 16px; }
+.adm .card { margin-top: 16px; }
+.adm-loader { margin: 30vh auto 0; }
+.adm code { padding: 1px 6px; border-radius: 6px; background: var(--soft); font-size: 0.92em; }
+
+.adm-head { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; padding: 4px 0 8px; }
+.adm-head img { width: 44px; height: 44px; }
+.adm-title { flex: 1; min-width: 160px; }
+.adm-title h1 { margin: 0; font-size: 20px; }
+.adm-title .muted { margin: 0; overflow-wrap: anywhere; }
+.adm-nav { display: flex; gap: 8px; }
+
+.adm-band { margin: 8px 0 0; padding: 10px 14px; border-radius: 14px; background: #FFF0D2; color: #5E4110; font-size: 14px; }
+.adm-band.subtle { background: var(--soft); color: var(--muted); }
+
+.adm-grid { display: grid; grid-template-columns: 1fr; gap: 0 16px; }
+@media (min-width: 760px) { .adm-grid { grid-template-columns: 1fr 1fr; } }
+.adm-card { display: flex; flex-direction: column; gap: 6px; }
+.adm-card .btn-primary { margin-top: 6px; }
+
+.btn-sm { min-height: 40px; padding: 8px 14px; font-size: 14px; }
+.btn-auto { width: auto; min-width: 200px; }
+.btn-danger { background: #B4472B; color: #FFFFFF; }
+.btn-link { padding: 0; border: 0; background: none; color: var(--primary); font-size: inherit; text-decoration: underline; cursor: pointer; }
+.input-sm { width: auto; min-height: 40px; padding: 6px 10px; font-size: 15px; border-radius: 12px; }
+input[type='number'].input-sm { width: 76px; }
+
+.row { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-top: 10px; }
+.row.tight { margin-top: 0; flex-wrap: nowrap; }
+.row.wrap { flex-wrap: wrap; }
+.block { display: block; }
+.warn { color: #A63F22; }
+.big-num { margin: 0; font-size: 26px; font-weight: 700; }
+
+.status-line { margin: 0; }
+.pill { display: inline-block; padding: 2px 10px; border-radius: 999px; background: var(--soft); color: var(--muted); font-size: 13px; font-weight: 700; }
+.pill.ok { background: var(--forest); color: #FFFFFF; }
+.facts { margin: 4px 0 6px; padding-left: 20px; font-size: 14px; }
+.facts li + li { margin-top: 2px; }
+
+details summary { cursor: pointer; font-weight: 700; font-size: 14px; padding: 6px 0; }
+details[open] summary { margin-bottom: 4px; }
+
+.plan { border: 2px solid var(--primary); }
+.crew-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 12px; margin-top: 8px; }
+.crew-card { padding: 12px; border-radius: 18px; background: var(--soft); }
+.crew-card h3 { margin: 0; }
+.crew-card .crew-meta { margin: 0 0 8px; }
+.crew-card ul { display: grid; gap: 6px; margin: 0; padding: 0; list-style: none; }
+.crew-card li { display: flex; align-items: center; gap: 10px; }
+.crew-card li > span { display: flex; flex-direction: column; min-width: 0; line-height: 1.4; }
+.crew-card .muted { margin: 0; }
+
+.tag-mini { display: inline-block; padding: 0 6px; border-radius: 6px; background: var(--soft); color: var(--muted); font-size: 11px; font-weight: 700; vertical-align: 1px; }
+.tag-mini.away { background: #EDE3F5; color: #5B4A72; }
+
+.table-wrap { overflow-x: auto; margin: 0 -4px; }
+.adm-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+.adm-table th, .adm-table td { padding: 8px 6px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: middle; }
+.adm-table th { color: var(--muted); font-size: 12px; font-weight: 700; white-space: nowrap; }
+.adm-table tr:last-child td { border-bottom: 0; }
+.adm-table .muted { margin: 0; }
+.metrics td, .adm-table .nowrap { white-space: nowrap; }
+.crew-card .nm { display: flex; align-items: center; gap: 4px; }
+.prefs { display: inline-flex; gap: 4px; }
+.prefs .av { --size: 32px; }
+.check { display: inline-flex; align-items: center; gap: 4px; white-space: nowrap; cursor: pointer; }
+.check input { width: 18px; height: 18px; accent-color: var(--forest); }
+
+.defs dl { margin: 6px 0; }
+.defs dt { margin-top: 8px; font-weight: 700; font-size: 14px; }
+.defs dd { margin: 2px 0 0; color: var(--muted); font-size: 14px; }
+
+.tools .tool { display: flex; flex-wrap: wrap; align-items: center; justify-content: space-between; gap: 10px; padding: 12px 0; border-top: 1px solid var(--border); }
+.tools .tool:first-of-type { border-top: 0; }
+.tools .tool > div:first-child { flex: 1; min-width: 220px; }
+.tools .danger b { color: #A63F22; }

@@ -1,0 +1,73 @@
+{
+  "_說明": "每座森林 7 則一句話的小知識，依「這週第幾天」顯示（第 1 則 = 週一）。請填上核對過來源的句子；空字串的那天首頁不顯示小知識。",
+  "forests": [
+    {
+      "order": 1,
+      "id": "mistwhisper",
+      "zh": "霧語森林",
+      "en": "Mistwhisper Woods",
+      "eco": "雲霧帶森林",
+      "color": "#9FB8C9",
+      "facts": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "order": 2,
+      "id": "firefly",
+      "zh": "螢光谷",
+      "en": "Firefly Vale",
+      "eco": "低海拔溪谷",
+      "color": "#FFC94D",
+      "facts": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "order": 3,
+      "id": "mossway",
+      "zh": "苔石步道",
+      "en": "Mossway",
+      "eco": "潮濕岩壁",
+      "color": "#8DBA6F",
+      "facts": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    },
+    {
+      "order": 4,
+      "id": "starsand",
+      "zh": "星砂海岸林",
+      "en": "Starsand Coast",
+      "eco": "海岸林",
+      "color": "#EE8A5C",
+      "facts": [
+        "",
+        "",
+        "",
+        "",
+        "",
+        "",
+        ""
+      ]
+    }
+  ]
+}
